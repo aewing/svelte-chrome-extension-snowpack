@@ -11,4 +11,4 @@
   }
 </style>
 
-<div id="svelte-drawer">Hello, world!?!?!?!</div>
+<div id="svelte-drawer">This works!</div>

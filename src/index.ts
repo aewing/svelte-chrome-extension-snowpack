@@ -1,4 +1,5 @@
 import Drawer from "./components/Drawer.svelte";
-new Drawer({
+const drawer = new Drawer({
   target: document.body,
 });
+export default drawer;

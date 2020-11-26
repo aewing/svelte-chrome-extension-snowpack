@@ -1312,6 +1312,11 @@ esinstall@^0.3.7:
     rollup-plugin-node-polyfills "^0.2.1"
     validate-npm-package-name "^3.0.0"
 
+esm-hmr@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/esm-hmr/-/esm-hmr-0.1.0.tgz#f0b40fd4089f3e96dd62ccff428d7364a217a892"
+  integrity sha512-Q3gBrTVsf+msFvaUg6J86MLKnrCvOeL82peDubT/rVkAf5QsgE7e2XL3nATC7QPmDosXOqfdtm1O7VsKJHz2HA==
+
 estree-walker@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.6.1.tgz#53049143f40c6eb918b23671d1fe3219f3a1b362"
