@@ -1,0 +1,21 @@
+{
+  "name": "Example Svelte Chrome Extension",
+  "author": "Andrew Ewing",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "This is indeed a chrome extension built with svite",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["build/_dist_/content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["build/*.js", "build/*.css"],
+  "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"]
+}

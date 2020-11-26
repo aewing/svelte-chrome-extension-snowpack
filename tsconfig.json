@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/svelte",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["DOM", "ES2015"],
+    "isolatedModules": false,
+    "module": "esnext",
+    "types": ["chrome", "svelte"]
+  }
+}
