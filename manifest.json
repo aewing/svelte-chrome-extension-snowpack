@@ -3,7 +3,7 @@
   "author": "Andrew Ewing",
   "version": "0.0.0",
   "manifest_version": 2,
-  "description": "This is indeed a chrome extension built with svite",
+  "description": "This is indeed a chrome extension built with snowpack",
   "icons": {
     "16": "images/icon-16.png",
     "48": "images/icon-48.png",
